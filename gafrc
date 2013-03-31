@@ -1,3 +1,2 @@
 (component-library "./gschem-sym")
-(component-library "./gschem-sym/current-reg")
 
