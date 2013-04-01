@@ -2,7 +2,6 @@ nRF51x22 Barebones Development Board
 ====================================
 
 ![rendering of board front](https://raw.github.com/nocko/nRF-breakout/master/nRF51-top.png)
-![rendering of board back](https://raw.github.com/nocko/nRF-breakout/master/nRF51-bottom.png)
 
 
 Getting Started
