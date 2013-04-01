@@ -3,15 +3,14 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["logo-small" 3000.00mil 3000.00mil]
+PCB["oshw-small" 600.00mil 600.00mil]
 
 Grid[1000.000000 0.0000 0.0000 0]
-Cursor[50.00mil 130.00mil 0.000000]
 PolyArea[3100.006200]
 Thermal[0.500000]
-DRC[8.00mil 8.00mil 8.00mil 8.00mil 15.00mil 8.00mil]
+DRC[6.00mil 6.00mil 6.00mil 8.00mil 13.00mil 6.00mil]
 Flags("nameonpcb,uniquename,clearnew,snappin")
-Groups("1,c:2:3:4:5:6,s:7:8")
+Groups("1,c:2,s:3")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
 Symbol[' ' 18.00mil]
@@ -792,70 +791,61 @@ Layer(1 "top")
 Layer(2 "ground")
 (
 )
-Layer(3 "signal2")
+Layer(3 "outline")
 (
 )
-Layer(4 "signal3")
+Layer(5 "silk")
 (
 )
-Layer(5 "power")
-(
-)
-Layer(6 "bottom")
-(
-)
-Layer(7 "outline")
-(
-)
-Layer(8 "spare")
-(
-)
-Layer(9 "silk")
-(
-)
-Layer(10 "silk")
+Layer(4 "silk")
 (
 	Polygon("pin,via")
 	(
-		[135.77mil 35.86mil] [134.94mil 36.18mil] [134.47mil 36.94mil] [133.98mil 39.33mil] [133.61mil 41.55mil] 
-		[3.2926mm 62.87mil] [129.18mil 63.75mil] [128.34mil 64.33mil] [127.31mil 64.72mil] [119.41mil 67.47mil] 
-		[111.95mil 71.01mil] [111.84mil 71.06mil] [110.98mil 71.38mil] [110.00mil 71.56mil] [109.02mil 71.27mil] 
-		[91.29mil 59.08mil] [89.44mil 57.77mil] [87.38mil 56.41mil] [86.51mil 56.22mil] [85.69mil 56.58mil] 
-		[70.77mil 71.49mil] [69.15mil 73.06mil] [67.47mil 74.80mil] [67.08mil 75.65mil] [67.30mil 76.54mil] 
-		[68.66mil 78.55mil] [69.97mil 80.40mil] [81.90mil 97.81mil] [82.18mil 98.73mil] [82.01mil 99.70mil] 
-		[81.62mil 100.69mil] [74.73mil 116.75mil] [74.36mil 117.61mil] [73.73mil 118.44mil] [72.84mil 118.91mil] 
-		[52.44mil 122.72mil] [50.22mil 123.09mil] [47.83mil 123.58mil] [47.04mil 124.05mil] [46.75mil 124.88mil] 
-		[46.75mil 150.65mil] [47.04mil 151.51mil] [47.83mil 152.01mil] [50.22mil 152.44mil] [52.44mil 3.8829mm] 
-		[72.25mil 156.56mil] [73.11mil 157.04mil] [73.65mil 4.0099mm] [73.98mil 158.52mil] [81.08mil 4.4770mm] 
-		[81.30mil 176.86mil] [81.47mil 4.5179mm] [81.19mil 178.81mil] [69.97mil 4.9563mm] [68.66mil 197.04mil] 
-		[67.30mil 199.05mil] [67.08mil 199.91mil] [67.47mil 200.73mil] [69.15mil 202.52mil] [70.77mil 204.09mil] 
-		[75.77mil 209.08mil] [77.40mil 210.66mil] [82.38mil 215.65mil] [83.95mil 217.27mil] [85.69mil 218.95mil] 
-		[86.51mil 219.36mil] [87.38mil 219.18mil] [89.44mil 5.5311mm] [91.29mil 216.52mil] [107.23mil 205.55mil] 
-		[108.20mil 5.2136mm] [109.19mil 205.45mil] [112.50mil 207.29mil] [114.51mil 208.38mil] [117.93mil 210.16mil] 
-		[118.77mil 210.22mil] [119.38mil 209.62mil] [120.86mil 206.05mil] [121.72mil 203.98mil] [135.55mil 170.40mil] 
-		[136.43mil 168.34mil] [137.40mil 166.01mil] [137.45mil 165.06mil] [136.91mil 164.33mil] [134.69mil 163.02mil] 
-		[133.33mil 161.94mil] [127.94mil 157.48mil] [123.80mil 151.84mil] [3.0767mm 145.25mil] [120.20mil 137.95mil] 
-		[120.79mil 132.20mil] [122.44mil 126.86mil] [125.06mil 122.01mil] [128.54mil 117.79mil] [3.3721mm 114.30mil] 
-		[137.59mil 111.66mil] [142.94mil 110.01mil] [148.69mil 109.43mil] [154.43mil 110.01mil] [159.77mil 111.66mil] 
-		[164.61mil 114.30mil] [168.81mil 117.79mil] [172.30mil 122.01mil] [174.93mil 126.86mil] [176.58mil 132.20mil] 
-		[177.16mil 137.95mil] [176.22mil 145.25mil] [173.55mil 151.84mil] [169.40mil 157.48mil] [164.04mil 161.94mil] 
-		[4.1308mm 163.02mil] [160.40mil 164.33mil] [4.0607mm 165.06mil] [159.91mil 166.01mil] [160.88mil 168.34mil] 
-		[4.1087mm 170.40mil] [175.59mil 203.98mil] [176.47mil 206.05mil] [177.93mil 209.62mil] [178.55mil 210.22mil] 
-		[179.40mil 210.16mil] [4.6449mm 208.38mil] [184.81mil 207.29mil] [188.12mil 205.45mil] [189.09mil 5.2136mm] 
-		[190.08mil 205.55mil] [206.02mil 216.52mil] [207.93mil 5.5311mm] [209.94mil 219.18mil] [210.80mil 219.36mil] 
-		[211.62mil 218.95mil] [213.36mil 217.27mil] [226.54mil 204.09mil] [228.16mil 202.52mil] [229.84mil 200.73mil] 
-		[230.25mil 199.91mil] [230.06mil 199.05mil] [228.65mil 197.04mil] [227.41mil 4.9563mm] [216.12mil 178.81mil] 
-		[215.84mil 4.5179mm] [216.01mil 176.86mil] [216.18mil 176.43mil] [216.23mil 176.31mil] [223.38mil 158.58mil] 
-		[223.38mil 158.47mil] [223.66mil 4.0099mm] [224.20mil 157.04mil] [225.08mil 156.56mil] [6.2197mm 3.8829mm] 
-		[247.11mil 152.44mil] [249.54mil 152.01mil] [250.29mil 151.54mil] [250.58mil 150.65mil] [250.58mil 124.88mil] 
-		[250.29mil 124.05mil] [249.54mil 123.58mil] [247.11mil 123.15mil] [6.2197mm 122.72mil] [224.48mil 118.91mil] 
-		[223.58mil 118.44mil] [222.95mil 117.66mil] [222.58mil 116.75mil] [215.75mil 100.69mil] [215.30mil 99.70mil] 
-		[215.15mil 98.73mil] [215.47mil 97.81mil] [227.36mil 80.45mil] [228.65mil 78.55mil] [230.01mil 76.54mil] 
-		[230.23mil 75.65mil] [229.84mil 74.80mil] [228.16mil 73.06mil] [226.54mil 71.49mil] [221.55mil 66.51mil] 
-		[219.97mil 64.88mil] [214.93mil 59.88mil] [211.62mil 56.58mil] [210.80mil 56.22mil] [209.94mil 56.47mil] 
-		[207.93mil 57.83mil] [206.02mil 59.08mil] [188.29mil 71.27mil] [187.31mil 71.58mil] [186.34mil 71.44mil] 
-		[185.47mil 71.06mil] [185.41mil 71.06mil] [177.91mil 67.48mil] [170.01mil 64.77mil] [168.98mil 64.33mil] 
-		[168.15mil 63.75mil] [167.68mil 62.87mil] [163.77mil 41.55mil] [163.33mil 39.33mil] [162.84mil 36.94mil] 
-		[4.1242mm 36.18mil] [161.54mil 35.86mil] [135.77mil 35.86mil] 
+		[299.69mil 80.68mil] [297.83mil 81.38mil] [296.81mil 83.06mil] [295.84mil 88.22mil] [295.36mil 90.66mil] 
+		[294.91mil 93.11mil] [286.34mil 139.33mil] [285.31mil 141.27mil] [283.52mil 142.52mil] [281.25mil 143.45mil] 
+		[6.7089mm 149.38mil] [247.93mil 157.06mil] [247.77mil 157.18mil] [6.2451mm 157.94mil] [243.69mil 158.29mil] 
+		[6.1374mm 157.61mil] [203.01mil 3.3307mm] [201.02mil 129.75mil] [199.00mil 3.2606mm] [194.61mil 125.38mil] 
+		[192.69mil 124.90mil] [190.91mil 125.70mil] [187.16mil 129.51mil] [183.69mil 3.3749mm] [172.84mil 143.72mil] 
+		[4.3020mm 147.25mil] [158.52mil 158.04mil] [155.05mil 161.56mil] [151.30mil 4.1976mm] [150.48mil 167.11mil] 
+		[150.92mil 169.05mil] [153.97mil 173.40mil] [3.9464mm 175.44mil] [156.79mil 177.47mil] [182.61mil 215.23mil] 
+		[183.30mil 217.29mil] [182.94mil 219.40mil] [182.01mil 221.52mil] [173.59mil 238.45mil] [167.09mil 256.40mil] 
+		[166.27mil 258.30mil] [164.95mil 260.08mil] [163.02mil 261.06mil] [118.70mil 6.8392mm] [116.30mil 269.75mil] 
+		[2.8923mm 270.19mil] [108.66mil 271.16mil] [106.96mil 272.19mil] [106.27mil 274.04mil] [106.27mil 330.02mil] 
+		[106.96mil 331.90mil] [108.66mil 332.95mil] [2.8923mm 333.88mil] [116.30mil 334.31mil] [118.70mil 334.80mil] 
+		[161.72mil 342.83mil] [163.61mil 343.83mil] [164.82mil 345.59mil] [165.41mil 347.06mil] [172.01mil 366.91mil] 
+		[4.5941mm 385.58mil] [181.41mil 386.94mil] [181.79mil 389.09mil] [181.09mil 391.18mil] [156.73mil 426.65mil] 
+		[155.32mil 428.68mil] [153.97mil 430.66mil] [150.92mil 435.06mil] [150.48mil 437.00mil] [151.30mil 438.80mil] 
+		[155.05mil 442.61mil] [4.3020mm 11.6060mm] [172.84mil 460.34mil] [183.69mil 471.13mil] [187.16mil 474.66mil] 
+		[190.91mil 478.36mil] [192.69mil 479.19mil] [194.61mil 478.73mil] [199.00mil 475.69mil] [201.02mil 474.34mil] 
+		[203.01mil 472.98mil] [237.73mil 449.16mil] [239.81mil 448.56mil] [241.91mil 449.01mil] [249.12mil 453.02mil] 
+		[251.27mil 454.18mil] [253.47mil 455.30mil] [260.95mil 459.20mil] [6.6741mm 11.6670mm] [264.05mil 458.06mil] 
+		[267.25mil 450.25mil] [268.18mil 448.00mil] [269.15mil 445.75mil] [7.6012mm 372.88mil] [300.18mil 370.69mil] 
+		[301.11mil 368.44mil] [303.27mil 363.29mil] [303.31mil 361.29mil] [7.6741mm 359.70mil] [297.36mil 356.83mil] 
+		[295.84mil 9.0363mm] [294.31mil 354.50mil] [282.61mil 344.79mil] [273.61mil 332.54mil] [267.83mil 318.25mil] 
+		[265.79mil 302.41mil] [267.05mil 289.94mil] [270.65mil 278.31mil] [276.36mil 267.79mil] [283.93mil 258.61mil] 
+		[293.08mil 251.04mil] [303.59mil 245.33mil] [315.22mil 241.70mil] [327.69mil 240.45mil] [340.16mil 241.70mil] 
+		[351.77mil 245.33mil] [362.27mil 251.04mil] [371.43mil 258.61mil] [378.98mil 267.79mil] [384.68mil 278.31mil] 
+		[388.29mil 289.94mil] [389.54mil 302.41mil] [387.50mil 318.25mil] [381.72mil 332.54mil] [372.70mil 344.79mil] 
+		[361.00mil 354.50mil] [359.48mil 9.0363mm] [357.95mil 356.83mil] [353.19mil 359.70mil] [352.01mil 361.29mil] 
+		[352.09mil 363.29mil] [354.22mil 368.44mil] [9.0203mm 370.69mil] [356.11mil 372.88mil] [386.18mil 445.75mil] 
+		[9.8331mm 448.00mil] [388.06mil 450.25mil] [391.27mil 458.06mil] [392.55mil 11.6670mm] [394.36mil 459.20mil] 
+		[401.90mil 455.30mil] [404.04mil 454.18mil] [406.19mil 453.02mil] [413.40mil 449.01mil] [415.50mil 448.56mil] 
+		[417.58mil 449.16mil] [452.30mil 472.98mil] [11.5390mm 474.34mil] [456.31mil 475.69mil] [460.72mil 478.73mil] 
+		[462.62mil 479.19mil] [464.40mil 478.36mil] [11.8910mm 474.66mil] [471.62mil 471.13mil] [482.47mil 460.34mil] 
+		[485.94mil 11.6060mm] [500.26mil 442.61mil] [504.01mil 438.80mil] [504.83mil 437.00mil] [504.38mil 435.06mil] 
+		[501.36mil 430.66mil] [500.00mil 428.68mil] [498.63mil 426.65mil] [474.22mil 391.18mil] [473.55mil 389.09mil] 
+		[473.90mil 386.94mil] [474.27mil 385.97mil] [474.44mil 385.75mil] [483.33mil 367.08mil] [489.90mil 347.22mil] 
+		[489.95mil 347.01mil] [490.50mil 345.59mil] [491.72mil 343.83mil] [493.59mil 342.83mil] [536.62mil 334.80mil] 
+		[539.02mil 334.31mil] [541.44mil 333.88mil] [546.70mil 332.95mil] [548.36mil 331.90mil] [549.04mil 330.02mil] 
+		[549.04mil 274.04mil] [548.36mil 272.19mil] [546.70mil 271.16mil] [541.44mil 270.19mil] [539.02mil 269.75mil] 
+		[536.62mil 6.8392mm] [492.34mil 261.06mil] [490.37mil 260.08mil] [489.09mil 258.30mil] [488.22mil 256.40mil] 
+		[481.72mil 238.45mil] [473.30mil 221.52mil] [472.38mil 219.40mil] [472.04mil 217.29mil] [472.70mil 215.23mil] 
+		[498.52mil 177.47mil] [499.94mil 175.44mil] [501.36mil 173.40mil] [504.38mil 169.05mil] [504.83mil 167.11mil] 
+		[504.01mil 4.1976mm] [500.26mil 161.56mil] [496.79mil 158.04mil] [485.94mil 147.25mil] [482.47mil 143.72mil] 
+		[471.62mil 3.3749mm] [11.8910mm 129.51mil] [464.40mil 125.70mil] [462.62mil 124.90mil] [460.72mil 125.38mil] 
+		[456.31mil 3.2606mm] [11.5390mm 129.75mil] [452.30mil 3.3307mm] [413.73mil 157.61mil] [411.62mil 158.29mil] 
+		[409.44mil 157.94mil] [407.55mil 157.18mil] [10.3490mm 157.06mil] [391.18mil 149.38mil] [374.06mil 143.45mil] 
+		[371.79mil 142.52mil] [370.00mil 141.27mil] [368.97mil 139.33mil] [360.40mil 93.11mil] [359.95mil 90.66mil] 
+		[359.48mil 88.22mil] [358.50mil 83.06mil] [357.48mil 81.38mil] [355.62mil 80.68mil] [299.69mil 80.68mil] 
 	)
 )
