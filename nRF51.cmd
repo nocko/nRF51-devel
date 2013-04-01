@@ -1,39 +1,43 @@
 # Pin name action command file
 
-# Start of element CONN3
-ChangePinName(CONN3, 7, 7)
-ChangePinName(CONN3, 6, 6)
-ChangePinName(CONN3, 5, 5)
-ChangePinName(CONN3, 4, 4)
-ChangePinName(CONN3, 3, 3)
-ChangePinName(CONN3, 2, 2)
-ChangePinName(CONN3, 1, 1)
+# Start of element C12
+ChangePinName(C12, 2, 2)
+ChangePinName(C12, 1, 1)
 
-# Start of element CONN2
-ChangePinName(CONN2, 8, 8)
-ChangePinName(CONN2, 7, 7)
-ChangePinName(CONN2, 6, 6)
-ChangePinName(CONN2, 5, 5)
-ChangePinName(CONN2, 4, 4)
-ChangePinName(CONN2, 3, 3)
-ChangePinName(CONN2, 2, 2)
-ChangePinName(CONN2, 1, 1)
+# Start of element IO2
+ChangePinName(IO2, 7, 7)
+ChangePinName(IO2, 6, 6)
+ChangePinName(IO2, 5, 5)
+ChangePinName(IO2, 4, 4)
+ChangePinName(IO2, 3, 3)
+ChangePinName(IO2, 2, 2)
+ChangePinName(IO2, 1, 1)
 
-# Start of element CONN5
-ChangePinName(CONN5, 8, 8)
-ChangePinName(CONN5, 7, 7)
-ChangePinName(CONN5, 6, 6)
-ChangePinName(CONN5, 5, 5)
-ChangePinName(CONN5, 4, 4)
-ChangePinName(CONN5, 3, 3)
-ChangePinName(CONN5, 2, 2)
-ChangePinName(CONN5, 1, 1)
+# Start of element IO1
+ChangePinName(IO1, 8, 8)
+ChangePinName(IO1, 7, 7)
+ChangePinName(IO1, 6, 6)
+ChangePinName(IO1, 5, 5)
+ChangePinName(IO1, 4, 4)
+ChangePinName(IO1, 3, 3)
+ChangePinName(IO1, 2, 2)
+ChangePinName(IO1, 1, 1)
 
-# Start of element CONN1
-ChangePinName(CONN1, 4, 4)
-ChangePinName(CONN1, 3, 3)
-ChangePinName(CONN1, 2, 2)
-ChangePinName(CONN1, 1, 1)
+# Start of element IO3
+ChangePinName(IO3, 8, 8)
+ChangePinName(IO3, 7, 7)
+ChangePinName(IO3, 6, 6)
+ChangePinName(IO3, 5, 5)
+ChangePinName(IO3, 4, 4)
+ChangePinName(IO3, 3, 3)
+ChangePinName(IO3, 2, 2)
+ChangePinName(IO3, 1, 1)
+
+# Start of element DEBUG
+ChangePinName(DEBUG, 4, 4)
+ChangePinName(DEBUG, 3, 3)
+ChangePinName(DEBUG, 2, 2)
+ChangePinName(DEBUG, 1, 1)
 
 # Start of element R1
 ChangePinName(R1, 1, 1)
@@ -71,9 +75,9 @@ ChangePinName(L1, 2, 2)
 ChangePinName(C10, 2, 2)
 ChangePinName(C10, 1, 1)
 
-# Start of element C12
-ChangePinName(C12, 2, 2)
-ChangePinName(C12, 1, 1)
+# Start of element C9
+ChangePinName(C9, 2, 2)
+ChangePinName(C9, 1, 1)
 
 # Start of element C11
 ChangePinName(C11, 2, 2)

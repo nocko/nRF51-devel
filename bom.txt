@@ -1,0 +1,25 @@
+refdes	device	value	footprint	digikey	price	
+C12	CAPACITOR	1uF	0603	unknown	unknown	
+IO2	CONNECTOR_7	unknown	JUMPER7	unknown	unknown	
+IO1	CONNECTOR_8	unknown	JUMPER8	unknown	unknown	
+IO3	CONNECTOR_8	unknown	JUMPER8	unknown	unknown	
+DEBUG	CONNECTOR_4	unknown	JUMPER4	unknown	unknown	
+R1	RESISTOR	12K	0603	unknown	unknown	
+L3	INDUCTOR	3.3nH	0603	unknown	unknown	
+C6	CAPACITOR	1.5pF	0603	unknown	unknown	
+C4	CAPACITOR	1pF	0603	unknown	unknown	
+C5	CAPACITOR	2.2pF	0603	unknown	unknown	
+C3	CAPACITOR	2.2nF	0603	unknown	unknown	
+L2	INDUCTOR	10mH	0603	unknown	unknown	
+L1	INDUCTOR	4.7nH	0603	unknown	unknown	
+C10	CAPACITOR	47nF	0603	unknown	unknown	
+C9	CAPACITOR	1nF	0603	unknown	unknown	
+C11	CAPACITOR	100nF	0603	unknown	unknown	
+C7	CAPACITOR	4.7uF	0603	unknown	unknown	
+L4	INDUCTOR	10uH	0603	unknown	unknown	
+L5	INDUCTOR	15nH	0603	unknown	unknown	
+C8	CAPACITOR	100nF	0603	unknown	unknown	
+C1	CAPACITOR	12pF	0603	unknown	unknown	
+C2	CAPACITOR	12pF	0603	unknown	unknown	
+X1	CRYSTAL	16MHz	CRYSTAL 300	unknown	unknown	
+U1	nRF51x22	unknown	QFN48_6_EP	unknown	unknown	

@@ -1,38 +1,38 @@
 unnamed_net37	L3-2 C6-2 
 unnamed_net36	L3-1 C4-2 C5-2 
 unnamed_net35	L4-1 L5-2 
-unnamed_net34	CONN1-3 R1-2 U1-24 
-unnamed_net33	CONN1-2 U1-23 
+unnamed_net34	DEBUG-3 R1-2 U1-24 
+unnamed_net33	DEBUG-2 U1-23 
 unnamed_net32	L2-1 C3-2 U1-30 
 unnamed_net31	C2-2 X1-2 U1-38 
 unnamed_net30	C1-2 X1-1 U1-37 
-unnamed_net29	CONN5-1 U1-3 
-unnamed_net28	CONN5-2 U1-48 
-unnamed_net27	CONN5-3 U1-47 
-unnamed_net26	CONN5-4 U1-46 
-unnamed_net25	CONN5-5 U1-45 
-unnamed_net24	CONN5-6 U1-44 
-unnamed_net23	CONN5-7 U1-43 
-unnamed_net22	CONN5-8 U1-42 
-unnamed_net21	CONN3-7 U1-20 
-unnamed_net20	CONN3-6 U1-19 
-unnamed_net19	CONN3-5 U1-18 
-unnamed_net18	CONN3-4 U1-17 
-unnamed_net17	CONN3-3 U1-16 
-unnamed_net16	CONN3-2 U1-15 
-unnamed_net15	CONN3-1 U1-14 
-unnamed_net14	CONN2-8 U1-11 
-unnamed_net13	CONN2-7 U1-10 
-unnamed_net12	CONN2-6 U1-9 
-unnamed_net11	CONN2-5 U1-8 
-unnamed_net10	CONN2-4 U1-7 
-unnamed_net9	CONN2-3 U1-6 
-unnamed_net8	CONN2-2 U1-5 
-unnamed_net7	CONN2-1 U1-4 
+unnamed_net29	IO3-1 U1-3 
+unnamed_net28	IO3-2 U1-48 
+unnamed_net27	IO3-3 U1-47 
+unnamed_net26	IO3-4 U1-46 
+unnamed_net25	IO3-5 U1-45 
+unnamed_net24	IO3-6 U1-44 
+unnamed_net23	IO3-7 U1-43 
+unnamed_net22	IO3-8 U1-42 
+unnamed_net21	IO2-7 U1-20 
+unnamed_net20	IO2-6 U1-19 
+unnamed_net19	IO2-5 U1-18 
+unnamed_net18	IO2-4 U1-17 
+unnamed_net17	IO2-3 U1-16 
+unnamed_net16	IO2-2 U1-15 
+unnamed_net15	IO2-1 U1-14 
+unnamed_net14	IO1-8 U1-11 
+unnamed_net13	IO1-7 U1-10 
+unnamed_net12	IO1-6 U1-9 
+unnamed_net11	IO1-5 U1-8 
+unnamed_net10	IO1-4 U1-7 
+unnamed_net9	IO1-3 U1-6 
+unnamed_net8	IO1-2 U1-5 
+unnamed_net7	IO1-1 U1-4 
 unnamed_net6	L4-2 U1-2 
-unnamed_net5	L5-1 C12-1 U1-36 U1-35 
-GND	CONN1-1 R1-1 C6-1 C4-1 C3-1 C12-2 C11-2 C7-2 C10-2 C8-2 C1-1 C2-1 U1-34 U1-33 U1-13 
-Vcc	CONN1-4 C11-1 U1-12 C7-1 U1-1 
+unnamed_net5	C12-1 L5-1 C9-1 U1-36 U1-35 
+GND	C12-2 DEBUG-1 R1-1 C6-1 C4-1 C3-1 C9-2 C11-2 C7-2 C10-2 C8-2 C1-1 C2-1 U1-34 U1-33 U1-13 
+Vcc	DEBUG-4 C11-1 U1-12 C7-1 U1-1 
 unnamed_net4	C5-1 L1-2 U1-32 
 unnamed_net3	L2-2 L1-1 U1-31 
 unnamed_net2	C10-1 U1-29 
