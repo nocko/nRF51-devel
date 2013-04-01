@@ -1,7 +1,7 @@
 nRF51x22 Barebones Development Board
 ====================================
 
-![rendering of board front](https://raw.github.com/nocko/nRF-breakout/master/nRF51-top.png)
+![rendering of board front](https://raw.github.com/nocko/nRF51-devel/master/nRF51-top.png)
 
 
 Getting Started
@@ -13,7 +13,7 @@ you're familiar with the gschem and pcb UI feel free to clone the repo
 in github with the [fork button](https://github.com/nocko/<project>/fork)
 or clone the repo using the CLI:
 
-    git clone https://github.com/nocko/<project>
+    git clone https://github.com/nocko/nRF51-devel
 
 Interesting Files in the Repo
 -----------------------------
