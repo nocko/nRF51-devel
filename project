@@ -1,3 +1,4 @@
 schematics nRF51.sch
+elements-dir ./packages
 pcb-elements ./packages
 output-name nRF51
