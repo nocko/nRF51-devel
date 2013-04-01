@@ -1,5 +1,9 @@
-Project Name
-=========================
+nRF51x22 Barebones Development Board
+====================================
+
+![rendering of board front](https://raw.github.com/nocko/nRF-breakout/master/nRF51-top.png)
+![rendering of board back](https://raw.github.com/nocko/nRF-breakout/master/nRF51-bottom.png)
+
 
 Getting Started
 ---------------
@@ -15,13 +19,13 @@ or clone the repo using the CLI:
 Interesting Files in the Repo
 -----------------------------
 
-* <project>.sch:
+* nRF51.sch:
 
 	gschem schematic. Edit this file with *gschem* to add or
 	remove components or change the way the components are
 	connected.
 
-* <project>.pcb:
+* nRF51.pcb:
  
   	pcb layout. Edit with *pcb* to change the locations of the
 	components on the board or to place new components added in
@@ -45,9 +49,9 @@ Interesting Files in the Repo
 
 * gerber/*:
 	
-	Gerber files generated from the *.pcb files. This directory is
-	designed such that the contents can be compressed and sent to
-	[OSH Park](http://oshpark.com/) without modification.
+	Gerber files generated from the *.pcb files. generate-gerbers
+	builds the gerbers and creates a zipfile(s) that can be sent
+	to [OSH Park](http://oshpark.com/) without modification.
 
 * bom.txt:
 
@@ -59,7 +63,7 @@ Interesting Files in the Repo
 General Workflow
 ----------------
 
-1. Add new components or change the circuit diagram in tdcs.sch using
+1. Add new components or change the circuit diagram in nRF51.sch using
 *gschem*.
 
 1. Run: ```gsch2pcb project```
@@ -67,9 +71,9 @@ General Workflow
 1. Follow the instructions provided by gsch2pcb to insert the new
 components.
 
-1. Adjust the pcb layout using *pcb*
+1. Adjust the pcb layout using *pcb* and save file
 
-1. Export your layout to gerber using File->Export->Gerber in *pcb*
+1. Make gerbers/oshpark zip files: ```cd gerbers; ./generate-gerbers.sh```
 
 1. Recreate the BoM: ```gnetlist -g bom -o bom.txt <project>.sch```
 
@@ -82,8 +86,8 @@ Getting the PCB made
 
  2. In a web browser: Browse to [oshpark.com](http://oshpark.com),
 select "Get Started Now", then "Select a file on your
-computer". Select tdcs.zip created above. Fill out the name, contact
-and billing information.
+computer". Select gerbers/nRF51.zip created above. Fill out the name,
+contact and billing information.
 
  3. Wait for boards to arrive.
 
