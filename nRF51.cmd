@@ -112,6 +112,7 @@ ChangePinName(X1, 2, 2)
 ChangePinName(X1, 1, 1)
 
 # Start of element U1
+ChangePinName(U1, EP, EP)
 ChangePinName(U1, 24, SWDCLK)
 ChangePinName(U1, 23, SWDIO/nRESET)
 ChangePinName(U1, 30, VDD_PA)

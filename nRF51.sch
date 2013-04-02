@@ -391,3 +391,5 @@ rev. A
 T 17800 6500 9 18 1 0 0 0 2
 © Shawn Nock 2013 (nock@nocko.se)
 CC-BY 3.0
+C 10900 14200 1 0 0 gnd-1.sym
+C 18500 16200 1 0 0 gnd-1.sym

@@ -542,3 +542,14 @@ T 600 100 9 10 0 0 0 0 1
 footprint=unknown
 T 3505 10645 8 10 1 1 0 0 1
 refdes=U?
+P 4000 7200 3700 7200 1 0 0
+{
+T 4100 7200 5 10 0 0 180 0 1
+pintype=unknown
+T 3645 7195 5 10 1 1 0 6 1
+pinlabel=EP
+T 3795 7245 5 10 0 1 0 0 1
+pinnumber=EP
+T 4100 7200 5 10 0 0 180 0 1
+pinseq=49
+}

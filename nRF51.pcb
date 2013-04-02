@@ -809,16 +809,16 @@ Via[755.00mil 510.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
 Via[710.00mil 510.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
 Via[710.00mil 555.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
 Via[755.00mil 555.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
-Via[800.00mil 555.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
-Via[845.00mil 555.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
 Via[845.00mil 600.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
-Via[800.00mil 600.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
 Via[755.00mil 600.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
 Via[710.00mil 600.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
 Via[570.00mil 405.00mil 25.00mil 14.00mil 0.0000 13.00mil "" ""]
 Via[895.00mil 415.00mil 25.00mil 14.00mil 0.0000 13.00mil "" ""]
 Via[990.00mil 330.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
 Via[970.00mil 480.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(0S,1S)"]
+Via[800.00mil 555.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
+Via[800.00mil 600.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
+Via[845.00mil 555.00mil 25.00mil 14.00mil 0.0000 13.00mil "" "thermal(1S)"]
 
 Element["" "0603" "C6" "1.5pF" 26.9390mm 350.00mil 1.4709mm -0.6881mm 0 100 ""]
 (
@@ -1106,7 +1106,19 @@ Element["" "CRYSTAL-300" "X1" "16MHz" 25.6901mm 6.6401mm -2.7031mm -2.8301mm 0 1
 
 	)
 
-Element["" "QFN48_6_EP" "U1" "unknown" 775.00mil 535.00mil -25.00mil 160.00mil 0 100 ""]
+Element["" "0603" "C9" "1nF" 970.00mil 415.00mil -81.50mil -86.50mil 0 100 ""]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-4.92mil -25.59mil 4.92mil -25.59mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
+	Pad[-4.92mil 25.59mil 4.92mil 25.59mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
+
+	)
+
+Element["" "QFN48_6_EP" "U1" "unknown" 775.00mil 535.00mil -20.00mil 160.00mil 0 100 ""]
 (
 	Pad[-3.4150mm -2.2000mm -2.6850mm -2.2000mm 0.2700mm 12.00mil 0.2700mm "1" "1" "square"]
 	Pad[-3.4150mm -1.8000mm -2.6850mm -1.8000mm 0.2700mm 12.00mil 0.2700mm "2" "2" "square"]
@@ -1156,24 +1168,12 @@ Element["" "QFN48_6_EP" "U1" "unknown" 775.00mil 535.00mil -25.00mil 160.00mil 0
 	Pad[-1.4000mm -3.4150mm -1.4000mm -2.6850mm 0.2700mm 12.00mil 0.2700mm "46" "46" "square"]
 	Pad[-1.8000mm -3.4150mm -1.8000mm -2.6850mm 0.2700mm 12.00mil 0.2700mm "47" "47" "square"]
 	Pad[-2.2000mm -3.4150mm -2.2000mm -2.6850mm 0.2700mm 12.00mil 0.2700mm "48" "48" "square"]
-	Pad[0.0000 0.0000 0.0000 0.0000 4.6000mm 12.00mil 4.7524mm "49" "49" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 0.0000 4.6000mm 12.00mil 4.7524mm "EP" "EP" "square,edge2"]
 	ElementLine [3.8000mm 3.8000mm -3.8000mm 3.8000mm 10.00mil]
 	ElementLine [-3.8000mm 3.8000mm -3.8000mm -3.8000mm 10.00mil]
 	ElementLine [-3.8000mm -3.8000mm 3.8000mm -3.8000mm 10.00mil]
 	ElementLine [3.8000mm -3.8000mm 3.8000mm 3.8000mm 10.00mil]
 	ElementLine [-3.8000mm -3.8000mm -4.8000mm -4.8000mm 10.00mil]
-
-	)
-
-Element["" "0603" "C9" "1nF" 970.00mil 415.00mil -81.50mil -86.50mil 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-4.92mil -25.59mil 4.92mil -25.59mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
-	Pad[-4.92mil 25.59mil 4.92mil 25.59mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
 
 	)
 Layer(1 "top")
@@ -1372,7 +1372,7 @@ Layer(4 "silk")
 	Text[975.00mil 655.00mil 0 100 "Shawn Nock" "clearline,onsolder"]
 	Text[975.00mil 590.00mil 0 80 "twitter.com/nocko" "clearline,onsolder"]
 	Text[975.00mil 525.00mil 0 80 "nock@nocko.se" "clearline,onsolder"]
-	Text[235.00mil 390.00mil 0 80 "CC-BY 3.0" "clearline,onsolder"]
+	Text[235.00mil 390.00mil 0 80 "CC-BY 3.0" "clearline,selected,onsolder"]
 	Polygon("pin,via")
 	(
 		[365.31mil 814.32mil] [367.17mil 813.62mil] [368.19mil 811.94mil] [369.16mil 806.78mil] [369.64mil 804.34mil] 
@@ -1446,6 +1446,7 @@ NetList()
 		Connect("C3-1")
 		Connect("C4-1")
 		Connect("C6-1")
+		Connect("C6-2")
 		Connect("C7-2")
 		Connect("C8-2")
 		Connect("C9-2")
@@ -1453,10 +1454,12 @@ NetList()
 		Connect("C11-2")
 		Connect("C12-2")
 		Connect("DEBUG-1")
+		Connect("L3-2")
 		Connect("R1-1")
 		Connect("U1-13")
 		Connect("U1-33")
 		Connect("U1-34")
+		Connect("U1-EP")
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
@@ -1647,11 +1650,6 @@ NetList()
 		Connect("C4-2")
 		Connect("C5-2")
 		Connect("L3-1")
-	)
-	Net("unnamed_net37" "(unknown)")
-	(
-		Connect("C6-2")
-		Connect("L3-2")
 	)
 	Net("Vcc" "(unknown)")
 	(
