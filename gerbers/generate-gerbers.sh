@@ -95,22 +95,18 @@ find . -maxdepth 1 -name \*.zip -delete
 find . -maxdepth 1 -type d -and -not -name '.' -exec rm -rf {} \;
 
 # Generate Gerbers for each pcb file in the parent directory
+count=0
 for pcbname in `ls .. |sed -n -e '/\.pcb/s/\.pcb$//p'`; do
+    if [[ ${pcbname: -4} = ".new" ]]; then
+        echo "Warning: Assuming $pcbname.pcb is a development artifact, skipping"
+        continue
+    fi
     if [[ ! -e $pcbname ]]; then
 	mkdir $pcbname
     fi
     pcb -x gerber --all-layers --name-style fixed --gerberfile $pcbname/$pcbname ../$pcbname.pcb
-done
 
-# Remove Paste files, OSHPark doesn't do stencils
-find . -name \*paste\* -delete
-
-# Remove empty silk layers
-find . -name \*silk\* -size -380c -delete
-
-# Oshpark is picky about internal layer naming (4 layer boards).
-count=0
-for pcbname in `ls .. |sed -n -e '/\.pcb/s/\.pcb$//p'`; do
+    # Rename inner layers
     for layer in `seq 1 $MAX_GROUPS`; do
 	if [[ -e $pcbname/$pcbname.group$layer.gbr ]]; then
 	    if [[ `stat -c%s $pcbname/$pcbname.group$layer.gbr` -lt 2500 ]]; then
@@ -155,6 +151,12 @@ for pcbname in `ls .. |sed -n -e '/\.pcb/s/\.pcb$//p'`; do
     done
     count=0
 done
+
+# Remove Paste files, OSHPark doesn't do stencils
+find . -name \*paste\* -delete
+
+# Remove empty silk layers
+find . -name \*silk\* -size -380c -delete
 
 # Compress Gerbers
 find . -maxdepth 1 -type d -and -not -name '.' -exec zip -r {} {} \; > /dev/null
