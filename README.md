@@ -10,7 +10,7 @@ Getting Started
 If you've never used gEDA before, start with this simple
 [tutorial](http://hobby-electrons.sourceforge.net/tutorials/gEDA/index.html). Once
 you're familiar with the gschem and pcb UI feel free to clone the repo
-in github with the [fork button](https://github.com/nocko/<project>/fork)
+in github with the [fork button](https://github.com/nocko/nRF-devel/fork)
 or clone the repo using the CLI:
 
     git clone https://github.com/nocko/nRF51-devel
@@ -79,7 +79,7 @@ components.
 Getting the PCB made
 --------------------
 
- 1. From the CLI:
+ 1. From the CLI (only if you've made changes):
 
      cd <project>/gerbers; ./generate-gerbers; 
 
@@ -88,11 +88,15 @@ select "Get Started Now", then "Select a file on your
 computer". Select gerbers/nRF51.zip created above. Fill out the name,
 contact and billing information.
 
- 3. Wait for boards to arrive.
+ 3. Order the parts. Current BoM Shopping Cart @ Mouser: http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ac5eb69a6f
+
+ 4. Wait for parts and boards to show up.
+
+ 5. Fun!
 
 License
 -------
 
 All files are licensed [CC-BY
-3.0](http://creativecommons.org/licenses/by/3.0/). Full text of
-license is available in LICENSE.txt
+3.0](http://creativecommons.org/licenses/by/3.0/) unless otherwise marked. Full text of the
+CC license is available in LICENSE.txt
