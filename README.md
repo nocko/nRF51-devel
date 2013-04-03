@@ -3,9 +3,26 @@ nRF51x22 Barebones Development Board
 
 ![rendering of board front](https://raw.github.com/nocko/nRF51-devel/master/nRF51-top.png)
 
+Make your own! ($9 for 3 boards + ~$10/ea. in parts) 
+----------------------------------------------------
 
-Getting Started
----------------
+ 1. In a web browser: Browse to [oshpark.com](http://oshpark.com),
+    select "Get Started Now", then "Select a file on your
+    computer". Select gerbers/nRF51.zip from the repo. Fill out the
+    name, contact and billing information.
+
+ 1. Order the parts. Current BoM Shopping Cart (for three boards) @
+    Mouser:
+    http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ac5eb69a6f
+
+ 1. Practice your [reflow soldering
+    technique](https://www.sparkfun.com/tutorials/59) while you wait
+    for parts and boards to show up.
+
+ 1. Fun!
+
+Make it better
+--------------
 
 If you've never used gEDA before, start with this simple
 [tutorial](http://hobby-electrons.sourceforge.net/tutorials/gEDA/index.html). Once
@@ -75,24 +92,6 @@ components.
 1. Make gerbers/oshpark zip files: ```cd gerbers; ./generate-gerbers.sh```
 
 1. Recreate the BoM: ```gnetlist -g bom -o bom.txt <project>.sch```
-
-Getting the PCB made
---------------------
-
- 1. From the CLI (only if you've made changes):
-
-     cd <project>/gerbers; ./generate-gerbers; 
-
- 2. In a web browser: Browse to [oshpark.com](http://oshpark.com),
-select "Get Started Now", then "Select a file on your
-computer". Select gerbers/nRF51.zip created above. Fill out the name,
-contact and billing information.
-
- 3. Order the parts. Current BoM Shopping Cart @ Mouser: http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ac5eb69a6f
-
- 4. Wait for parts and boards to show up.
-
- 5. Fun!
 
 License
 -------
