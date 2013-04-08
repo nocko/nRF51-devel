@@ -13,7 +13,7 @@ Make your own! ($9 for 3 boards + ~$10/ea. in parts)
 
  1. Order the parts. Current BoM Shopping Cart (for three boards) @
     Mouser:
-    http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ac5eb69a6f
+    http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=88e3ea2c37
 
  1. Practice your [reflow soldering
     technique](https://www.sparkfun.com/tutorials/59) while you wait
